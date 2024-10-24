@@ -1,0 +1,19 @@
+The project name, RPO (Rental Product Online), refers to a platform that allows users to rent products for short-term usage. Nowadays, there are many applications available in the market for buying and selling both new and used products, but there are limited options specifically for renting. For example, if you are going on a one-week trip and need a high-end camera, purchasing one might cost between 30,000 to 40,000 rupees, which isn't practical for short-term use. In such cases, renting the camera for the required time is a better option, and that's where this application comes in handy.
+
+This application features four types of users:
+
+App Owner: The owner of the application.
+Admin: Has full access to all functions in the application, including adding or removing users and products, as well as adjusting prices.
+Product Owner: Can upload the products they wish to offer for rent.
+Borrower: The end user who needs a product for short-term use. They can search for products, add them to the cart, and rent them based on availability.
+
+Challanges:
+Primarykey voilation Exception:
+
+When I was developing an application, I encountered a challenge with a Primary Key Violation Exception. This occurred when multiple users attempted to insert a new record with a primary key value that already existed in the database. Such violations can disrupt database integrity and potentially cause the application to crash. I found this issue after the application was in production. To resolve it, I implemented a sequence in Oracle, which automatically generates unique primary key values. Previously, I relied on Hibernate's auto-increment feature for ID generation, but using the sequence resolved the issue effectively.
+
+Challenge: Handling a Linux Task Without Prior Experience
+
+When the Linux support developer unexpectedly left the team, I was assigned a Linux-related task by my manager. The task involved creating a control script that would run when the server started. The script needed to cross-check functionality and log details of any new files created during the server startup process. At that time, I had no prior experience with Linux.
+
+To overcome this challenge, I took online learning sessions to quickly acquire the necessary skills. After gaining a basic understanding of Linux commands and scripting, I successfully completed the task, implementing the script and ensuring it logged the required file details. This experience helped me adapt quickly to a new technical environment and deliver the assigned story.
