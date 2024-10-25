@@ -1,4 +1,6 @@
-The project name, RPO (Rental Product Online), refers to a platform that allows users to rent products for short-term usage. Nowadays, there are many applications available in the market for buying and selling both new and used products, but there are limited options specifically for renting. For example, if you are going on a one-week trip and need a high-end camera, purchasing one might cost between 30,000 to 40,000 rupees, which isn't practical for short-term use. In such cases, renting the camera for the required time is a better option, and that's where this application comes in handy.
+Project Description:
+
+My project name, RPO (Rental Product Online), refers to a platform that allows users to rent products for short-term usage. Nowadays, there are many applications available in the market for buying and selling both new and used products, but there are limited options specifically for renting. For example, if you are going on a one-week trip and need a high-end camera, purchasing one might cost between 30,000 to 40,000 rupees, which isn't practical for short-term use. In such cases, renting the camera for the required time is a better option, and that's where this application comes in handy.
 
 This application features four types of users:
 
@@ -6,6 +8,12 @@ App Owner: The owner of the application.
 Admin: Has full access to all functions in the application, including adding or removing users and products, as well as adjusting prices.
 Product Owner: Can upload the products they wish to offer for rent.
 Borrower: The end user who needs a product for short-term use. They can search for products, add them to the cart, and rent them based on availability.
+
+Roles and Responsibilities:
+As a Java developer, I receive stories from the team, analyze them, and prepare a solution document. This document is then reviewed with my team lead, and based on their feedback or suggestions, I make the necessary corrections. After that, I implement the code changes and perform end-to-end testing to having any errors or exceptions and handle that errors or exceptions. Once everything looks good, I commit and push the changes to the child repository.
+
+For deployment, I prepare a release document and follow specific steps, including database changes if needed. First, I paste the final build link into the Linux OS, extract the tar file, and create a symbolic link. Then, I start the server and verify that everything works correctly on the initial server. Once confirmed, I follow the same steps for the remaining servers.
+
 
 Challanges:
 Primarykey voilation Exception:
