@@ -9,7 +9,13 @@ JOIN Order o2
 ON o1.custId = o2.custId
    AND o1.orderDate = o2.orderDate
    AND o1.orderId > o2.orderId;
-   
+
+delete from orders
+where order_id not in (
+    select min(order_id)
+    from orders
+    group by cust_id, order_date
+);
 -----------------------------------------------------------------------
 -- employees_projects
 
